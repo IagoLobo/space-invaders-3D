@@ -132,7 +132,6 @@ GameObject:
   - component: {fileID: 344985}
   - component: {fileID: 344984}
   - component: {fileID: 344983}
-  - component: {fileID: 344982}
   - component: {fileID: 344981}
   m_Layer: 0
   m_Name: Enemy (22)
@@ -168,22 +167,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &344982
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 344979}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &344983
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -331,7 +314,6 @@ GameObject:
   - component: {fileID: 18732171}
   - component: {fileID: 18732170}
   - component: {fileID: 18732169}
-  - component: {fileID: 18732168}
   - component: {fileID: 18732167}
   m_Layer: 0
   m_Name: Enemy (16)
@@ -367,22 +349,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &18732168
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 18732165}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &18732169
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -453,7 +419,6 @@ GameObject:
   - component: {fileID: 36919200}
   - component: {fileID: 36919199}
   - component: {fileID: 36919198}
-  - component: {fileID: 36919197}
   - component: {fileID: 36919196}
   m_Layer: 0
   m_Name: Enemy (23)
@@ -489,22 +454,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &36919197
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 36919194}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &36919198
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -729,7 +678,6 @@ GameObject:
   - component: {fileID: 106645706}
   - component: {fileID: 106645705}
   - component: {fileID: 106645704}
-  - component: {fileID: 106645703}
   - component: {fileID: 106645702}
   m_Layer: 0
   m_Name: Enemy (25)
@@ -765,22 +713,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &106645703
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 106645700}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &106645704
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -928,7 +860,6 @@ GameObject:
   - component: {fileID: 162115558}
   - component: {fileID: 162115557}
   - component: {fileID: 162115556}
-  - component: {fileID: 162115555}
   - component: {fileID: 162115554}
   m_Layer: 0
   m_Name: Enemy (15)
@@ -964,22 +895,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &162115555
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 162115552}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &162115556
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1127,7 +1042,6 @@ GameObject:
   - component: {fileID: 208580588}
   - component: {fileID: 208580587}
   - component: {fileID: 208580586}
-  - component: {fileID: 208580585}
   - component: {fileID: 208580584}
   m_Layer: 0
   m_Name: Enemy (41)
@@ -1163,22 +1077,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &208580585
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 208580582}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &208580586
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1249,7 +1147,6 @@ GameObject:
   - component: {fileID: 218901023}
   - component: {fileID: 218901022}
   - component: {fileID: 218901021}
-  - component: {fileID: 218901020}
   - component: {fileID: 218901019}
   m_Layer: 0
   m_Name: Enemy (20)
@@ -1285,22 +1182,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &218901020
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 218901017}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &218901021
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1527,7 +1408,6 @@ GameObject:
   - component: {fileID: 290643417}
   - component: {fileID: 290643416}
   - component: {fileID: 290643415}
-  - component: {fileID: 290643414}
   - component: {fileID: 290643418}
   m_Layer: 0
   m_Name: Enemy (7)
@@ -1550,22 +1430,6 @@ Transform:
   m_Father: {fileID: 5865936712256808273}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &290643414
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 290643412}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &290643415
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1880,7 +1744,6 @@ GameObject:
   - component: {fileID: 363145312}
   - component: {fileID: 363145311}
   - component: {fileID: 363145310}
-  - component: {fileID: 363145309}
   - component: {fileID: 363145308}
   m_Layer: 0
   m_Name: Enemy (39)
@@ -1916,22 +1779,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &363145309
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 363145306}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &363145310
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2180,7 +2027,6 @@ GameObject:
   - component: {fileID: 406514715}
   - component: {fileID: 406514714}
   - component: {fileID: 406514713}
-  - component: {fileID: 406514712}
   - component: {fileID: 406514711}
   m_Layer: 0
   m_Name: Enemy (34)
@@ -2216,22 +2062,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &406514712
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 406514709}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &406514713
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2302,7 +2132,6 @@ GameObject:
   - component: {fileID: 428250763}
   - component: {fileID: 428250762}
   - component: {fileID: 428250761}
-  - component: {fileID: 428250760}
   - component: {fileID: 428250759}
   m_Layer: 0
   m_Name: Enemy (18)
@@ -2338,22 +2167,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &428250760
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 428250757}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &428250761
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2424,7 +2237,6 @@ GameObject:
   - component: {fileID: 438919955}
   - component: {fileID: 438919954}
   - component: {fileID: 438919953}
-  - component: {fileID: 438919952}
   - component: {fileID: 438919951}
   m_Layer: 0
   m_Name: Enemy (42)
@@ -2460,22 +2272,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &438919952
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 438919949}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &438919953
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2546,7 +2342,6 @@ GameObject:
   - component: {fileID: 448636473}
   - component: {fileID: 448636472}
   - component: {fileID: 448636471}
-  - component: {fileID: 448636470}
   - component: {fileID: 448636474}
   m_Layer: 0
   m_Name: Enemy (6)
@@ -2569,22 +2364,6 @@ Transform:
   m_Father: {fileID: 5865936712256808273}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &448636470
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 448636468}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &448636471
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2668,7 +2447,6 @@ GameObject:
   - component: {fileID: 462153415}
   - component: {fileID: 462153414}
   - component: {fileID: 462153413}
-  - component: {fileID: 462153412}
   - component: {fileID: 462153411}
   m_Layer: 0
   m_Name: Enemy (32)
@@ -2704,22 +2482,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &462153412
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 462153409}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &462153413
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2867,7 +2629,6 @@ GameObject:
   - component: {fileID: 509946400}
   - component: {fileID: 509946399}
   - component: {fileID: 509946398}
-  - component: {fileID: 509946397}
   - component: {fileID: 509946401}
   m_Layer: 0
   m_Name: Enemy (5)
@@ -2890,22 +2651,6 @@ Transform:
   m_Father: {fileID: 5865936712256808273}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &509946397
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 509946395}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &509946398
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2989,7 +2734,6 @@ GameObject:
   - component: {fileID: 543461915}
   - component: {fileID: 543461914}
   - component: {fileID: 543461913}
-  - component: {fileID: 543461912}
   - component: {fileID: 543461911}
   m_Layer: 0
   m_Name: Enemy (12)
@@ -3025,22 +2769,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &543461912
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 543461909}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &543461913
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3111,7 +2839,6 @@ GameObject:
   - component: {fileID: 605513192}
   - component: {fileID: 605513191}
   - component: {fileID: 605513190}
-  - component: {fileID: 605513189}
   - component: {fileID: 605513188}
   m_Layer: 0
   m_Name: Enemy (36)
@@ -3147,22 +2874,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &605513189
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 605513186}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &605513190
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3387,7 +3098,6 @@ GameObject:
   - component: {fileID: 647223027}
   - component: {fileID: 647223026}
   - component: {fileID: 647223025}
-  - component: {fileID: 647223024}
   - component: {fileID: 647223023}
   m_Layer: 0
   m_Name: Enemy (40)
@@ -3423,22 +3133,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &647223024
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 647223021}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &647223025
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3663,7 +3357,6 @@ GameObject:
   - component: {fileID: 701040183}
   - component: {fileID: 701040182}
   - component: {fileID: 701040181}
-  - component: {fileID: 701040180}
   - component: {fileID: 701040179}
   m_Layer: 0
   m_Name: Enemy (44)
@@ -3699,22 +3392,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &701040180
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 701040177}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &701040181
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4016,7 +3693,6 @@ GameObject:
   - component: {fileID: 743236249}
   - component: {fileID: 743236248}
   - component: {fileID: 743236247}
-  - component: {fileID: 743236246}
   - component: {fileID: 743236250}
   m_Layer: 0
   m_Name: Enemy (4)
@@ -4039,22 +3715,6 @@ Transform:
   m_Father: {fileID: 5865936712256808273}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &743236246
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 743236244}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &743236247
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4138,7 +3798,6 @@ GameObject:
   - component: {fileID: 758396170}
   - component: {fileID: 758396169}
   - component: {fileID: 758396168}
-  - component: {fileID: 758396167}
   - component: {fileID: 758396166}
   m_Layer: 0
   m_Name: Enemy (19)
@@ -4174,22 +3833,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &758396167
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 758396164}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &758396168
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4414,7 +4057,6 @@ GameObject:
   - component: {fileID: 809417434}
   - component: {fileID: 809417433}
   - component: {fileID: 809417432}
-  - component: {fileID: 809417431}
   - component: {fileID: 809417430}
   m_Layer: 0
   m_Name: Enemy (10)
@@ -4450,22 +4092,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &809417431
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 809417428}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &809417432
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4613,7 +4239,6 @@ GameObject:
   - component: {fileID: 817330676}
   - component: {fileID: 817330675}
   - component: {fileID: 817330674}
-  - component: {fileID: 817330673}
   - component: {fileID: 817330672}
   m_Layer: 0
   m_Name: Enemy (30)
@@ -4649,22 +4274,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &817330673
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 817330670}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &817330674
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4735,7 +4344,6 @@ GameObject:
   - component: {fileID: 825883421}
   - component: {fileID: 825883420}
   - component: {fileID: 825883419}
-  - component: {fileID: 825883418}
   - component: {fileID: 825883417}
   m_Layer: 0
   m_Name: Enemy (9)
@@ -4771,22 +4379,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &825883418
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 825883415}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &825883419
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5095,7 +4687,6 @@ GameObject:
   - component: {fileID: 1046665757}
   - component: {fileID: 1046665756}
   - component: {fileID: 1046665755}
-  - component: {fileID: 1046665754}
   - component: {fileID: 1046665753}
   m_Layer: 0
   m_Name: Enemy (33)
@@ -5131,22 +4722,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &1046665754
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1046665751}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &1046665755
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5294,7 +4869,6 @@ GameObject:
   - component: {fileID: 1077247991}
   - component: {fileID: 1077247990}
   - component: {fileID: 1077247989}
-  - component: {fileID: 1077247988}
   - component: {fileID: 1077247987}
   m_Layer: 0
   m_Name: Enemy (28)
@@ -5330,22 +4904,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &1077247988
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1077247985}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &1077247989
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5416,7 +4974,6 @@ GameObject:
   - component: {fileID: 1083255567}
   - component: {fileID: 1083255566}
   - component: {fileID: 1083255565}
-  - component: {fileID: 1083255564}
   - component: {fileID: 1083255563}
   m_Layer: 0
   m_Name: Enemy (35)
@@ -5452,22 +5009,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &1083255564
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1083255561}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &1083255565
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5692,7 +5233,6 @@ GameObject:
   - component: {fileID: 1160906461}
   - component: {fileID: 1160906460}
   - component: {fileID: 1160906459}
-  - component: {fileID: 1160906458}
   - component: {fileID: 1160906457}
   m_Layer: 0
   m_Name: Enemy (38)
@@ -5728,22 +5268,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &1160906458
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1160906455}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &1160906459
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6045,7 +5569,6 @@ GameObject:
   - component: {fileID: 1320093213}
   - component: {fileID: 1320093212}
   - component: {fileID: 1320093211}
-  - component: {fileID: 1320093210}
   - component: {fileID: 1320093209}
   m_Layer: 0
   m_Name: Enemy (29)
@@ -6081,22 +5604,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &1320093210
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1320093207}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &1320093211
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6167,7 +5674,6 @@ GameObject:
   - component: {fileID: 1329531165}
   - component: {fileID: 1329531164}
   - component: {fileID: 1329531163}
-  - component: {fileID: 1329531162}
   - component: {fileID: 1329531166}
   m_Layer: 0
   m_Name: Enemy (8)
@@ -6190,22 +5696,6 @@ Transform:
   m_Father: {fileID: 5865936712256808273}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &1329531162
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1329531160}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &1329531163
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6690,7 +6180,6 @@ GameObject:
   - component: {fileID: 1466128979}
   - component: {fileID: 1466128978}
   - component: {fileID: 1466128977}
-  - component: {fileID: 1466128976}
   - component: {fileID: 1466128975}
   m_Layer: 0
   m_Name: Enemy (31)
@@ -6726,22 +6215,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &1466128976
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1466128973}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &1466128977
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6812,7 +6285,6 @@ GameObject:
   - component: {fileID: 1474332391}
   - component: {fileID: 1474332390}
   - component: {fileID: 1474332389}
-  - component: {fileID: 1474332388}
   - component: {fileID: 1474332387}
   m_Layer: 0
   m_Name: Enemy (21)
@@ -6848,22 +6320,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &1474332388
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1474332385}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &1474332389
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6934,7 +6390,6 @@ GameObject:
   - component: {fileID: 1479191510}
   - component: {fileID: 1479191509}
   - component: {fileID: 1479191508}
-  - component: {fileID: 1479191507}
   - component: {fileID: 1479191506}
   m_Layer: 0
   m_Name: Enemy (14)
@@ -6970,22 +6425,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &1479191507
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479191504}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &1479191508
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7210,7 +6649,6 @@ GameObject:
   - component: {fileID: 1591791211}
   - component: {fileID: 1591791210}
   - component: {fileID: 1591791209}
-  - component: {fileID: 1591791208}
   - component: {fileID: 1591791212}
   m_Layer: 0
   m_Name: Enemy (2)
@@ -7233,22 +6671,6 @@ Transform:
   m_Father: {fileID: 5865936712256808273}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &1591791208
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1591791206}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &1591791209
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7563,7 +6985,6 @@ GameObject:
   - component: {fileID: 1692563491}
   - component: {fileID: 1692563490}
   - component: {fileID: 1692563489}
-  - component: {fileID: 1692563488}
   - component: {fileID: 1692563487}
   m_Layer: 0
   m_Name: Enemy (24)
@@ -7599,22 +7020,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &1692563488
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1692563485}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &1692563489
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7839,7 +7244,6 @@ GameObject:
   - component: {fileID: 1757816334}
   - component: {fileID: 1757816333}
   - component: {fileID: 1757816332}
-  - component: {fileID: 1757816331}
   - component: {fileID: 1757816330}
   m_Layer: 0
   m_Name: Enemy (17)
@@ -7875,22 +7279,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &1757816331
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1757816328}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &1757816332
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7961,7 +7349,6 @@ GameObject:
   - component: {fileID: 1777869609}
   - component: {fileID: 1777869608}
   - component: {fileID: 1777869607}
-  - component: {fileID: 1777869606}
   - component: {fileID: 1777869605}
   m_Layer: 0
   m_Name: Enemy (27)
@@ -7997,22 +7384,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &1777869606
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1777869603}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &1777869607
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8707,7 +8078,6 @@ GameObject:
   - component: {fileID: 1966735903}
   - component: {fileID: 1966735902}
   - component: {fileID: 1966735901}
-  - component: {fileID: 1966735900}
   - component: {fileID: 1966735904}
   m_Layer: 0
   m_Name: Enemy (3)
@@ -8730,22 +8100,6 @@ Transform:
   m_Father: {fileID: 5865936712256808273}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &1966735900
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1966735898}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &1966735901
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9062,7 +8416,6 @@ GameObject:
   - component: {fileID: 2001900523}
   - component: {fileID: 2001900522}
   - component: {fileID: 2001900521}
-  - component: {fileID: 2001900520}
   - component: {fileID: 2001900519}
   m_Layer: 0
   m_Name: Enemy (11)
@@ -9098,22 +8451,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &2001900520
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2001900517}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &2001900521
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9338,7 +8675,6 @@ GameObject:
   - component: {fileID: 2025382625}
   - component: {fileID: 2025382624}
   - component: {fileID: 2025382623}
-  - component: {fileID: 2025382622}
   - component: {fileID: 2025382621}
   m_Layer: 0
   m_Name: Enemy (43)
@@ -9374,22 +8710,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &2025382622
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2025382619}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &2025382623
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9537,7 +8857,6 @@ GameObject:
   - component: {fileID: 2029548060}
   - component: {fileID: 2029548059}
   - component: {fileID: 2029548058}
-  - component: {fileID: 2029548057}
   - component: {fileID: 2029548056}
   m_Layer: 0
   m_Name: Enemy (37)
@@ -9573,22 +8892,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &2029548057
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2029548054}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &2029548058
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9736,7 +9039,6 @@ GameObject:
   - component: {fileID: 2036276194}
   - component: {fileID: 2036276193}
   - component: {fileID: 2036276192}
-  - component: {fileID: 2036276191}
   - component: {fileID: 2036276190}
   m_Layer: 0
   m_Name: Enemy (26)
@@ -9772,22 +9074,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &2036276191
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2036276188}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &2036276192
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10123,7 +9409,6 @@ GameObject:
   - component: {fileID: 2104701299}
   - component: {fileID: 2104701298}
   - component: {fileID: 2104701297}
-  - component: {fileID: 2104701296}
   - component: {fileID: 2104701295}
   m_Layer: 0
   m_Name: Enemy (13)
@@ -10159,22 +9444,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!54 &2104701296
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2104701293}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &2104701297
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10322,7 +9591,6 @@ GameObject:
   - component: {fileID: 2134810242}
   - component: {fileID: 2134810241}
   - component: {fileID: 2134810240}
-  - component: {fileID: 2134810239}
   - component: {fileID: 2134810243}
   m_Layer: 0
   m_Name: Enemy (1)
@@ -10345,22 +9613,6 @@ Transform:
   m_Father: {fileID: 5865936712256808273}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &2134810239
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2134810237}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &2134810240
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10444,7 +9696,6 @@ GameObject:
   - component: {fileID: 134065604401759942}
   - component: {fileID: 7567437772360507344}
   - component: {fileID: 3452720013883799148}
-  - component: {fileID: 134065604401759941}
   - component: {fileID: 134065604401759940}
   m_Layer: 0
   m_Name: Shield004
@@ -10466,22 +9717,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.9664762, y: 1.4986001, z: 0.5080004}
   m_Center: {x: -0.7292409, y: 0.4952962, z: 0.2539968}
---- !u!54 &134065604401759941
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 134065604401759939}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!114 &134065604401759942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10507,7 +9742,6 @@ GameObject:
   - component: {fileID: 1106277461197408359}
   - component: {fileID: 2557729921110021250}
   - component: {fileID: 7589792421233389715}
-  - component: {fileID: 1106277461197408358}
   - component: {fileID: 1106277461197408357}
   m_Layer: 0
   m_Name: Shield002
@@ -10529,22 +9763,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.9664762, y: 1.4986001, z: 0.5080004}
   m_Center: {x: -0.7292366, y: 0.4952962, z: 0.2539968}
---- !u!54 &1106277461197408358
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106277461197408356}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!114 &1106277461197408359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10570,7 +9788,6 @@ GameObject:
   - component: {fileID: 1355276935953164254}
   - component: {fileID: 4497271671447072905}
   - component: {fileID: 7616948061899989816}
-  - component: {fileID: 1355276935953164253}
   - component: {fileID: 1355276935953164252}
   m_Layer: 0
   m_Name: Shield003
@@ -10592,22 +9809,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.9664762, y: 1.4986001, z: 0.5080004}
   m_Center: {x: -0.7292386, y: 0.4952962, z: 0.2539968}
---- !u!54 &1355276935953164253
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1355276935953164251}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!114 &1355276935953164254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11015,7 +10216,6 @@ GameObject:
   - component: {fileID: 3674110055897744889}
   - component: {fileID: 1603733133267759525}
   - component: {fileID: 6896555235515281888}
-  - component: {fileID: 6896555235515281887}
   - component: {fileID: 6896555235515281889}
   m_Layer: 0
   m_Name: Enemy
@@ -11024,22 +10224,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!54 &6896555235515281887
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6896555235515281886}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &6896555235515281888
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11226,7 +10410,6 @@ GameObject:
   - component: {fileID: 8292699464769394242}
   - component: {fileID: 2125074548814178157}
   - component: {fileID: 1416832578895773358}
-  - component: {fileID: 8292699464769394241}
   - component: {fileID: 8292699464769394240}
   m_Layer: 0
   m_Name: Shield001
@@ -11248,22 +10431,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.9664762, y: 1.4986001, z: 0.5080004}
   m_Center: {x: -0.7292342, y: 0.4952962, z: 0.2539968}
---- !u!54 &8292699464769394241
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8292699464769394239}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!114 &8292699464769394242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11305,7 +10472,6 @@ GameObject:
   - component: {fileID: 8921153256522440103}
   - component: {fileID: 5050768637762658764}
   - component: {fileID: 6844659615931415291}
-  - component: {fileID: 8921153256522440104}
   - component: {fileID: 8921153256522440105}
   m_Layer: 0
   m_Name: Player
@@ -11331,22 +10497,6 @@ MonoBehaviour:
   minBound: -10
   shot: {fileID: 7269195238294706908, guid: 1dd7c3a46a179764e95e9aa0f4196e4a, type: 3}
   fireRate: 0.5
---- !u!54 &8921153256522440104
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8921153256522440102}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 124
-  m_CollisionDetection: 0
 --- !u!65 &8921153256522440105
 BoxCollider:
   m_ObjectHideFlags: 0
