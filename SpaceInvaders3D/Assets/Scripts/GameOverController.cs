@@ -29,6 +29,7 @@ public class GameOverController : MonoBehaviour
             if(Input.GetKeyDown(KeyCode.R))
             {
                 isGameOver = false;                 // Reseta o estado do jogo
+                playerWon = false;
                 Time.timeScale = 1;                 // Voltar o tempo, senão o jogo fica parado eternamente
                 SceneManager.LoadScene("Gameplay"); // Reinicia a cena do jogo
             }
@@ -36,6 +37,7 @@ public class GameOverController : MonoBehaviour
             if(Input.GetKeyDown(KeyCode.Q))
             {
                 isGameOver = false;     // Reseta o estado do jogo
+                playerWon = false;
                 Time.timeScale = 1;     // Voltar o tempo, senão o jogo fica parado eternamente
                 Application.Quit();     // Sai do jogo
             }
